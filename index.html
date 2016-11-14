@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body class="b-page">
-    <div class="">
-        <div class="b-page__header">
+<body>
+    <div class="wrap">
+        <div class="b__header">
             <div class="b-logo">
-                <a class="b-logo--unique">UNIQUE</a>
-                <a class="b-logo--tech">TECH</a>
+                <a class="b-logo__unique">UNIQUE</a>
+                <a class="b-logo__tech">TECH</a>
             </div>
             <div class="b-menu">
                 <a href="#" class="b-menu__link b-menu__link--active">HOME</a>
@@ -20,26 +20,28 @@
                 <a href="#" class="b-menu__link">BLOG</a>
                 <a href="#" class="b-menu__link">CONTACT US</a>
             </div>
+            <div class="b-slider">
+                <div class="b-slider__header">
+                    <p>UNIQUE-TECH APP DEVELOPMENT</p>
+                </div>
+                <div class="b-slider__subtext">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </div>
+                <div class="b-slider__button">
+                    <a class="btn__plane"></a>
+                </div>
+                <div class="b-slider__image">
+                    <img src="#">
+                </div>
+            </div>
         </div>
-        <div class="b-slider">
-            <div class="b-slider__header">
-                <p>UNIQUE-TECH APP DEVELOPMENT</p>
-            </div>
-            <div class="b-slider__subtext">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </div>
-            <div class="b-slider__button">
-                <a class="btn__plane"></a>
-            </div>
-            <div class="b-slider__image">
-                <img src="#">
-            </div>
-        </div>
+
+
         <div class="b-activity">
-            <div class="b-main-button">
-                <button>WHAT WE DO</button>
-            </div>
+            <h3 class="b-section-title">
+                <span>WHAT WE DO</span>
+            </h3>
             <div class="b-activity__image">
                 <div class="b-activity__image"></div>
             </div>
@@ -54,9 +56,9 @@
             </div>
         </div>
         <div class="b-activity--right">
-            <div class="b-main-button">
-                <button></button>
-            </div>
+            <h3 class="b-section-title">
+                <span></span>
+            </h3>
             <div class="b-activity__image">
                 <div class="b-activity__image"></div>
             </div>
@@ -83,9 +85,9 @@
             </div>
         </div>
         <div class="b-activity">
-            <div class="b-main-button">
-                <button></button>
-            </div>
+            <h3 class="b-section-title">
+                <span></span>
+            </h3>
             <div class="b-activity__image">
                 <div class="b-activity__image"></div>
             </div>
@@ -111,18 +113,18 @@
         </div>
 
         <div class="b-workflow">
-            <div class="b-main-button--left-arrow">
-                <button>HOW WE WORK</button>
-            </div>
+            <h3 class="b-section-title--left-arrow">
+                <span>HOW WE WORK</span>
+            </h3>
             <div class="b-workflow__image">
                 <img>
             </div>
         </div>
 
         <div class="b-features">
-            <div class="b-main-button">
-                <button>OUR FEATURES</button>
-            </div>
+            <h3 class="b-section-title">
+                <span>OUR FEATURES</span>
+            </h3>
             <ul>
                 <li>
                     <div class="b-feature">
@@ -171,7 +173,9 @@
         </div>
 
         <div class="b-packages">
-            <div class="b-main-button"></div>
+            <h3 class="b-section-title--left-arrow">
+                <span>OUR PACKAGES</span>
+            </h3>
             <div class="b-grid">
                 <div>
                     <ul>
@@ -306,62 +310,62 @@
             </div>
         </div>
     </div>
-
+    <footer class="b-footer">
+        <div class="b-footer__column">
+            <ul>
+                <li class="footer-column--header">PORTFOLIO</li>
+                <li class="footer-column">Web Design</li>
+                <li class="footer-column">Branding & Identity</li>
+                <li class="footer-column">Mobile Design</li>
+                <li class="footer-column">Print</li>
+                <li class="footer-column">User Interface</li>
+            </ul>
+        </div>
+        <div class="b-footer__column">
+            <ul>
+                <li class="footer-column--header">ABOUT</li>
+                <li class="footer-column">The Company</li>
+                <li class="footer-column">History</li>
+                <li class="footer-column">Vision</li>
+            </ul>
+        </div>
+        <div class="b-footer__column">
+            <ul>
+                <li class="footer-column--header">GALLERY</li>
+                <li class="footer-column">Flickr</li>
+                <li class="footer-column">Picasa</li>
+                <li class="footer-column">iStockPhoto</li>
+                <li class="footer-column">PhotoDune</li>
+            </ul>
+        </div>
+        <div class="b-footer__column">
+            <ul>
+                <li class="footer-column--header">CONTACT</li>
+                <li class="footer-column">Basic Info</li>
+                <li class="footer-column">Map</li>
+                <li class="footer-column">Conctact Form</li>
+            </ul>
+        </div>
+        <div class="b-social-networks">
+            <ul>
+                <li class="facebook">
+                    <a href="#"></a>
+                </li>
+                <li class="tweeter">
+                    <a href="#"></a>
+                </li>
+                <li class="gplus">
+                    <a href="#"></a>
+                </li>
+                <li class="linkedin">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="b-copyright">
+            <p class="copyright__text">Copyright © 2015 Syed Miraj.All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-<footer class="b-footer">
-    <div class="b-footer__column">
-        <ul>
-            <li class="footer-column--header">PORTFOLIO</li>
-            <li class="footer-column">Web Design</li>
-            <li class="footer-column">Branding & Identity</li>
-            <li class="footer-column">Mobile Design</li>
-            <li class="footer-column">Print</li>
-            <li class="footer-column">User Interface</li>
-        </ul>
-    </div>
-    <div class="b-footer__column">
-        <ul>
-            <li class="footer-column--header">ABOUT</li>
-            <li class="footer-column">The Company</li>
-            <li class="footer-column">History</li>
-            <li class="footer-column">Vision</li>
-        </ul>
-    </div>
-    <div class="b-footer__column">
-        <ul>
-            <li class="footer-column--header">GALLERY</li>
-            <li class="footer-column">Flickr</li>
-            <li class="footer-column">Picasa</li>
-            <li class="footer-column">iStockPhoto</li>
-            <li class="footer-column">PhotoDune</li>
-        </ul>
-    </div>
-    <div class="b-footer__column">
-        <ul>
-            <li class="footer-column--header">CONTACT</li>
-            <li class="footer-column">Basic Info</li>
-            <li class="footer-column">Map</li>
-            <li class="footer-column">Conctact Form</li>
-        </ul>
-    </div>
-    <div class="b-social-networks">
-        <ul>
-            <li class="facebook">
-                <a href="#"></a>
-            </li>
-            <li class="tweeter">
-                <a href="#"></a>
-            </li>
-            <li class="gplus">
-                <a href="#"></a>
-            </li>
-            <li class="linkedin">
-                <a href="#"></a>
-            </li>
-        </ul>
-    </div>
-    <div class="b-copyright">
-        <p class="copyright__text">Copyright © 2015 Syed Miraj.All rights reserved.</p>
-    </div>
-</footer>
+
 </html>
