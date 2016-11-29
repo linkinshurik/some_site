@@ -1,3 +1,5 @@
+@import "_reset.sass"
+
 body
   background: #fdfcfc
 
@@ -28,6 +30,26 @@ body
     font-weight: 400
     padding-left: 24px
     line-height: 50px
+
+.btn-price
+  width: 192px
+  height: 45px
+  background-color: #a5a5a5
+  border-radius: 3px
+  color: white
+  font-size: 15px
+  font-weight: 700
+  box-shadow: 1px 1.7px 0 rgba(0, 0, 0, 0.1)
+
+  &--red
+    width: 214px
+    height: 56px
+    background-color: #f26c4f
+    border-radius: 3px
+    box-shadow: 1px 1.7px 0 rgba(0, 0, 0, 0.1)
+
+  &--yellow
+    background-color: #ffc038
 
 .b-logo
   padding-top: 76px
@@ -141,6 +163,7 @@ body
 
 .b-grid
 
+
   &__column
     width: 300px
     display: inline-block
@@ -148,14 +171,13 @@ body
 
   &__list
     list-style-type: none
-
-    &--bordered
-      border-left: 2px solid orange
-      border-right: 2px solid orange
+    padding-left: 0
 
   &__item
     font-size: 16px
     font-weight: 500
+    height: 46px
+    line-height: 45px
 
     &--grey
       color: #b3b3b3
@@ -168,6 +190,7 @@ body
   &__header
     font-size: 23px
     font-weight: 400
+    padding-bottom: 35px
 
     &--grey
       color: #8d8d8d
@@ -182,9 +205,22 @@ body
 .price
   font-size: 35px
 
+  &--big
+    height: 64px
+    color: #f26c4f
+    font-weight: 500
+    font-size: 68px
+    text-align: center
+
+  &--small
+    font-size: 20px
+
+  &--middle
+    font-size: 25px
+
 .b-section-title
   padding-top: 130px
-  padding-bottom: 185px
+  padding-bottom: 135px
 
   &--right-arrow
     background: url('../img/arrow-1.png') 676px 155px no-repeat
@@ -235,6 +271,8 @@ body
     font-weight: 400
     line-height: 58px
 
+.b-packages
+  padding-bottom: 167px
 
 .b-project
 
@@ -313,6 +351,7 @@ body
   &__img
     margin-top: 110px
     padding: 1px
+    opacity: 0.5
 
   &__menu
     height: 90px
@@ -340,6 +379,58 @@ body
     text-align: center
     line-height: 46px
     margin: 20px 26px 23px 0
+
+.b-story
+  height: 594px
+  background: url('../img/background-stripes.png') 0px 0px no-repeat
+
+
+  &__image
+    padding-top: 60px
+    display: inline-block
+    width: 503px
+    height: 463px
+
+  &__content
+    padding-top: 40px
+    display: inline-block
+    width: 480px
+    vertical-align: top
+    padding-left: 20px
+
+  &__header
+    width: 220px
+    height: 55px
+    background-color: #464646
+    border-radius: 2px
+    box-shadow: 1px 1.7px 4.8px 0.3px rgba(0, 0, 0, 0.25)
+    color: white
+    font-size: 26px
+    font-weight: 700
+    text-align: center
+    line-height: 50px
+
+  &__text
+    width: 480px
+    color: #363636
+    font-size: 16px
+    font-weight: 300
+    line-height: 30px
+
+  &__link
+    width: 190px
+    height: 50px
+    background-color: #ffc038
+    border-radius: 2px
+    box-shadow: 1px 1.7px 4.8px 0.3px rgba(0, 0, 0, 0.25)
+    display: inline-block
+    text-align: center
+    line-height: 53px
+    color: #3a3a3a
+    font-size: 13px
+    font-weight: 700
+    text-transform: uppercase
+
 
 .b-footer
   background-color: #363636
